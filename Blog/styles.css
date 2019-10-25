@@ -95,7 +95,7 @@ html {
     iframe, audio {
     display: block;
     margin: 0 auto;
-    border: 3px solid #3fb6b2;
+    border: 3px solid #9469b3;
     }
     hr {
     border: 0;
@@ -118,7 +118,7 @@ html {
     font-weight: bold;
     }
     .submit:hover {
-    background-color: #43a09d;
+    background-color: #6f468c;
     }
     textarea {
     height: 100px;
