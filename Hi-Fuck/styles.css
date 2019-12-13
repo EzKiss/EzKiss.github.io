@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+.title-head{ 
+font-family: 'Open Sans', sans-serif;
+font-weight: 200;
+font-style: italic;
+padding: 5px;
+text-align: center;
+font-size: 25px;
+margin-top: 25px;
+
+font-weight: 700;
+}
+.line-site{
+    height: 1px;
+    background-color: gainsboro;
+    margin: 10px;
+    
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: inherit;
+}
+.topic{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 30px;
+    padding: 0px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+ul li{
+    flex: content;
+    margin: 0;
+    padding: 0;
+}
+.icons{
+    flex-wrap: wrap;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    
+}
+.title{
+    padding: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    margin: 0;
+    padding: o;
+}
+.bar{
+position: relative;
+}
+.blocks{ 
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 110px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 270;
+    width: 480;
+}
+.video-blocks{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 410px;
+    padding-top: 10px;
+    padding-bottom: 80px;
+    height: 270;
+    width: 480;
+}
+.backpic{
+    margin-top: 72px;
+    
+
+
+}
+#footer{
+    background-color: lavender;
+    position: relative;
+    z-index: 1;
+    display: block;
+    box-sizing: inherit;
+    margin: 0;
+    width: 100%;
+
+    padding: 70px 0;
+}
+.follow{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.texticon{
+    padding-left: 5px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: blueviolet;
+}
+a:visited{
+    color: black;
+}
