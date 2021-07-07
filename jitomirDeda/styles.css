@@ -2,8 +2,6 @@ html{
   
     background-color: #e6e6e6;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
-
 }
 .blankblock{
   width: auto;
@@ -102,17 +100,34 @@ nav {
       margin-top: 100px;
       font-family: Georgia, 'Times New Roman', Times, serif;
       font-weight: bold;
-      
     }
     .opisanie{
       margin-left: 300px;
       margin-right: 1000px;
       font-size: 20px;
+      color: #ffffff;
+      text-shadow:black 5px;
+      position: relative;
+      display: block;
+      min-width: 500px;
+      min-height: 100px;
     }
-
 body {
-  background: #e6e6e6;
+  background: #e6e6e6 url(images/1.jpg)
+     no-repeat /* Не повторять рисунок */
+     fixed; /* Зафиксировать фон */
+     background-size: 100%;
+     background-position-y: -40px;
 }
+.menu{
+  position:relative;
+}
+.prikol{
+  position:relative;
+  position: -50px;
+}
+
+
 .knopka {
   text-decoration: none;
   display: inline-block;
